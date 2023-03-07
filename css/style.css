@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    min-height: 100vh;
+}
+
 .logo {
     max-height: 80%;
     max-width:  100%;
@@ -12,20 +16,78 @@
 
 header {
     width: 100%;
-    height: 60px;
+    height: 10vh;
+    min-height: 50px;
     background-color: #03252a;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+
 
 .top {
     background-color: #d9c06e;
     width: 100%;
-    height: 200px;
+    height: 80vh;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.top .txt {
+    margin: 4%;
+}
+
+.txt h2 {
+    margin-top: 1em;
+}
+
+.txt p {
+    text-indent: 20px;
+}
+
+.txt ul {
+    padding-left: 40px;
 }
 
 .imgPassos {
-    max-height: 150%;
-    margin-left: 50px;
-    margin-top: 50px;
+    max-height: 80%;
+    max-width: 30%;
+    margin-left: 4%;
+    border-radius: 3%;
+}
+
+
+footer {
+    background-color: #03252a;
+    height: 10vh;
+    min-height: 50px;
+    color: white;
+    font-size: 70%;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contatos ul {
+    margin-top: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contatos li {
+    margin-right: 20px;
+}
+
+.contatos a {
+    color: white;
+    text-decoration: none;
+}
+
+.contatos a:hover {
+    text-decoration: underline;
 }

@@ -10,13 +10,57 @@
 <body>
     <header>
         <img class="logo" src="imagens/PASSOS.png" alt="">
-        
     </header>
 
     <main>
         <div class="top">
-            <img class="imgPassos" src="imagens/PauloAndrePassos.jpeg" alt="">
+            <img class="imgPassos" src="imagens/PauloAndrePassos.jpg" alt="">
+            <div class="txt">
+                <h1 id="saudacao"></h1>
+                <p>Me chamo Paulo André, sou estudante do curso de Análise e Desenvolvimento de Sistemas no IFPI - Campus Picos</p>
+                
+                <h2>Sobre mim:</h2>
+                <p>Tenho 18 anos, natural da cidade de Simplício Mendes, no estado do  Piauí</p>
+                <p>Atualmente estou residindo em Picos, também no Piauí, onde estou cursando a faculdade</p>
+
+                <h2>Conhecimentos:</h2>
+                <p>Possuo conhecimentos básicos nas linguagens:</p>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>Sql</li>
+                    <li>Html5 e Css3 </li>
+                </ul>
+            </div>
         </div>
     </main>
+
+    <footer>
+        <div><h3>Contatos:</h3></div>
+        <nav class="contatos">
+            <ul>
+                <li>Instagram: <a href="https://www.instagram.com/paulo_andre_passos_/">@paulo_andre_passos_</a></li>
+                <li>GitHub: <a href="https://github.com/pauloandrepassos">https://github.com/pauloandrepassos</a></li>
+                <li>Email: <a href="#">pauloreispassos988@gmail.com</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script>
+        var data = new Date();
+        var hora = data.getHours();
+        var saudacao;
+
+        if (hora >= 6 && hora < 12) {
+            saudacao = "Olá, bom dia!"
+        } else if (hora >= 12 && hora < 18) {
+            saudacao = "Olá, boa tarde!"
+        } else {
+            saudacao = "Olá, boa noite!"
+        }
+
+        document.getElementById("saudacao").innerHTML = saudacao;
+    </script>
+
 </body>
 </html>
