@@ -10,40 +10,62 @@ body {
 .logo {
     max-height: 80%;
     max-width:  100%;
-    margin-left: 10px;
     border-radius: 50%;
+    margin-left: 10px;
+}
+
+.menu {
+    background-color: #0a4751;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    margin-right: 10px;
+    border-radius: 3rem;
+    padding: 0 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
 }
 
 header {
     width: 100%;
-    height: 10vh;
+    height: 60px;
     min-height: 50px;
     background-color: #03252a;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-
-.top {
-    background-color: #d9c06e;
-    width: 100%;
-    height: 80vh;
-    min-height: 400px;
-    display: flex;
-    align-items: center;
+    border-bottom: 1px solid white;
     
 }
 
-.top .txt {
+section {
+    background-color: #03252a;
+}
+
+#top {
+    color: white;
+    width: 100%;
+    height: 60vh;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    
+}
+
+.txt {
     margin: 4%;
 }
 
-.txt h2 {
-    margin-top: 1em;
-}
-
-.txt p {
+p {    
     text-indent: 20px;
 }
 
@@ -53,10 +75,35 @@ header {
 
 .imgPassos {
     max-height: 80%;
-    max-width: 30%;
     margin-left: 4%;
     border-radius: 3%;
 }
+
+.imgFamilia {
+    max-height: 80%;
+    margin-right: 4%;
+    border-radius: 3%;
+}
+
+#sobre_mim {
+    color: white;
+    height: 40vh;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+}
+
+#habilidades {
+    color: white;
+    height: 40vh;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 
 
 footer {
@@ -70,6 +117,7 @@ footer {
 footer div {
     display: flex;
     justify-content: space-around;
+    border-top: 1px solid white;
 }
 
 .contatos ul {

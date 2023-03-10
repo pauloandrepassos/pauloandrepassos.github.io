@@ -10,57 +10,51 @@
 <body>
     <header>
         <img class="logo" src="imagens/PASSOS.png" alt="">
+        <nav class="menu">
+            <ul>
+                <a href="#sobre_mim">Sobre mim</a>
+                <a href="#">Habilidades</a>
+                <a href="#">Projetos</a>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <div class="top">
-            <img class="imgPassos" src="imagens/PauloAndrePassos.jpg" alt="">
-            <div class="txt">
-                <h1 id="saudacao"></h1>
-                <p>Me chamo Paulo André, sou estudante do curso de Análise e Desenvolvimento de Sistemas no IFPI - Campus Picos</p>
-                
-                <h2>Sobre mim:</h2>
-                <p>Tenho 18 anos, natural da cidade de Simplício Mendes, no estado do  Piauí</p>
-                <p>Atualmente estou residindo em Picos, também no Piauí, onde estou cursando a faculdade</p>
+    <section id="top">
+        <img class="imgPassos" src="imagens/PauloAndrePassos.jpg" alt="">
 
-                <h2>Conhecimentos:</h2>
-                <p>Possuo conhecimentos básicos nas linguagens:</p>
-                <ul>
-                    <li>Python</li>
-                    <li>Java</li>
-                    <li>Sql</li>
-                    <li>Html5 e Css3 </li>
-                </ul>
-            </div>
+        <div class="txt">
+            <h2>Olá, sou Paulo André</h2>
+            <p>Sou estudante do curso de Análise e Desenvolvimento de Sistemas no IFPI - Campus Picos</p>
         </div>
-    </main>
+    </section>
+
+    <section id="sobre_mim">
+        <div class="txt">
+            <h2>Sobre mim:</h2>
+            <p>Tenho 18 anos, natural da cidade de Simplício Mendes, no estado do  Piauí, onde cresci junto de minha família</p>
+            
+            <p>Atualmente estou residindo em Picos, também no Piauí, onde estou cursando a faculdade</p>
+        </div>
+        <img class="imgFamilia" src="imagens/Família.jpg" alt="">
+    </section>
+
+    <section id="habilidades">
+        <div class="txt">
+            <h2>Habilidades</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, nulla? Eveniet perferendis ipsam quibusdam id dolore quae mollitia, asperiores at reiciendis iure facere ipsa officia magnam laudantium esse, beatae nulla?</p>
+        </div>
+    </section>
 
     <footer>
         <div><h3>Contatos:</h3></div>
         <nav class="contatos">
             <ul>
-                <li>Instagram: <a href="https://www.instagram.com/paulo_andre_passos_/">@paulo_andre_passos_</a></li>
-                <li>GitHub: <a href="https://github.com/pauloandrepassos">https://github.com/pauloandrepassos</a></li>
-                <li>Email: <a href="#">pauloreispassos988@gmail.com</a></li>
+                <li>Instagram: <br><a href="https://www.instagram.com/paulo_andre_passos_/">@paulo_andre_passos_</a></li>
+                <li>GitHub: <br><a href="https://github.com/pauloandrepassos">https://github.com/pauloandrepassos</a></li>
+                <li>Email: <br><a href="#">pauloreispassos988@gmail.com</a></li>
             </ul>
         </nav>
     </footer>
-
-    <script>
-        var data = new Date();
-        var hora = data.getHours();
-        var saudacao;
-
-        if (hora >= 6 && hora < 12) {
-            saudacao = "Olá, bom dia!"
-        } else if (hora >= 12 && hora < 18) {
-            saudacao = "Olá, boa tarde!"
-        } else {
-            saudacao = "Olá, boa noite!"
-        }
-
-        document.getElementById("saudacao").innerHTML = saudacao;
-    </script>
 
 </body>
 </html>
