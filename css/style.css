@@ -49,6 +49,7 @@ header {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid white;
+    position: fixed;
     
 }
 
@@ -64,6 +65,7 @@ section {
     display: flex;
     align-items: center;
     border-bottom: 1px solid white;
+    padding-top: 61px;
 }
 
 .txt {
@@ -158,7 +160,7 @@ p {
     text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .projetos_container {
       flex-direction: column;
       align-items: stretch;
