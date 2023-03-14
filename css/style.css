@@ -5,6 +5,7 @@
 
 body {
     min-height: 100vh;
+    background-image: linear-gradient(to right, #03252a, #22434b, #03252a);
 }
 
 .logo {
@@ -52,7 +53,7 @@ header {
 }
 
 section {
-    background-color: #03252a;
+    
 }
 
 .top {
