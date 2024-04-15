@@ -1,0 +1,38 @@
+.home {
+
+}
+
+.section {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+.section img {
+  margin: 10px;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.info {
+  margin: 10px;
+}
+
+.info h1 {
+  font-size: 2.5rem; /* Tamanho da fonte */
+  text-align: center; /* Alinhamento centralizado */
+  margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
+.info h2 {
+  font-size: 1.8rem; /* Tamanho da fonte */
+  text-align: center; /* Alinhamento centralizado */
+  margin-bottom: 20px; /* Espaço abaixo do subtítulo */
+}
+
+.info p {
+  font-size: 1.2rem; /* Tamanho da fonte */
+  text-align: justify; /* Alinhamento justificado */
+  line-height: 1.6; /* Espaçamento entre linhas */
+}

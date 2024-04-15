@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #010221;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    border-radius: 3rem;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.menu .opcoes {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.menu .opcoes:hover {
+    color: #EDAA25;
+}
