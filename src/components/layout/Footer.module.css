@@ -1,4 +1,5 @@
 .footer {
+    margin-top: 20px;
     width: 100%;
 }
 .container {
@@ -29,4 +30,8 @@
 .itens:hover {
     color: #0A7373;
     transform: scale(1.2);
+}
+
+.copyRight {
+    margin: auto;
 }

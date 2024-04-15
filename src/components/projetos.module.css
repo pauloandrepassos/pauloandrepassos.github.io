@@ -1,0 +1,41 @@
+.card_projeto {
+    width: 100%;
+    display: flex;
+}
+
+.card_projeto .imagem_projeto {
+    width: 50%;
+    display: flex;
+}
+
+.card_projeto .projeto_info {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem_projeto img {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.icon {
+    margin: auto;
+    font-size: 1.4rem;
+    border: 3px solid #010221;
+    color: #010221;
+    border-radius: 3rem;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.icon:hover {
+    background-color: #f0f0f0; /* Muda a cor de fundo quando o mouse passa por cima */
+    transform: rotate(360deg); /* Rotaciona o ícone 360 graus quando o mouse passa por cima */
+}

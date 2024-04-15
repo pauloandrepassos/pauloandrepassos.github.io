@@ -1,38 +1,79 @@
-.home {
-
-}
-
-.section {
+.intro {
   width: 100%;
-  max-width: 1200px;
   margin: auto;
   display: flex;
   justify-content: stretch;
   align-items: center;
 }
-.section img {
+.intro img {
   margin: 10px;
   border-radius: 1rem;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
+
 .info {
-  margin: 10px;
+  padding: 20px;
 }
 
-.info h1 {
-  font-size: 2.5rem; /* Tamanho da fonte */
-  text-align: center; /* Alinhamento centralizado */
-  margin-bottom: 10px; /* Espaço abaixo do título */
+.home h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.info h2 {
-  font-size: 1.8rem; /* Tamanho da fonte */
-  text-align: center; /* Alinhamento centralizado */
-  margin-bottom: 20px; /* Espaço abaixo do subtítulo */
+.home h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.info p {
-  font-size: 1.2rem; /* Tamanho da fonte */
-  text-align: justify; /* Alinhamento justificado */
-  line-height: 1.6; /* Espaçamento entre linhas */
+.home h3 {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.home p {
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.borda_separacao {
+  border: 1px solid #010221;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.lista_habilidades {
+  font-size: 50px;
+  text-align: center;
+}
+
+.jsIcon:hover {
+  color: #f7df1e; /* Cor amarela para JavaScript */
+}
+
+.pythonIcon:hover {
+  color: #3776ab; /* Cor azul para Python */
+}
+
+.htmlIcon:hover {
+  color: #e34c26; /* Cor laranja para HTML5 */
+}
+
+.cssIcon:hover {
+  color: #264de4; /* Cor azul para CSS3 */
+}
+
+.reactIcon:hover {
+  color: #61dafb; /* Cor azul claro para React.js */
+}
+
+.nodeIcon:hover {
+  color: #68a063; /* Cor verde para Node.js */
+}
+
+.gitIcon:hover {
+  color: #f34f29; /* Cor vermelha para Git */
 }

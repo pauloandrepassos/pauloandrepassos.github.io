@@ -15,7 +15,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className={styles.copyRight}>
-                    <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+                    <p>&copy; 2024 Paulo André. Todos os direitos reservados.</p>
                 </div>
             </div>
         </footer>
